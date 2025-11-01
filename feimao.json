@@ -4,23 +4,8 @@
   "logo": "http://hello.xn--z7x900a.com/fm.gif",
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "豆瓣评分",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
-    {
-      "key": "豆瓣预告",
-      "name": "🐼┃豆瓣┃预告",
-      "type": 3,
-      "api": "csp_YGP",
-      "playerType": 2,
-      "searchable": 0
-    },
-    {
       "key": "天天",
-      "name": "天天追剧",
+      "name": "天天┃追剧",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 2,
@@ -28,7 +13,7 @@
     },
     {
       "key": "NoSearch_csp_DiDuan",
-      "name": "低端┃无搜索",
+      "name": "低端┃影视",
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
@@ -38,7 +23,7 @@
     },
     {
       "key": "Dygang",
-      "name": "电影港[边下边播]",
+      "name": "电影港",
       "type": 3,
       "api": "csp_Dygang",
       "searchable": 1,
