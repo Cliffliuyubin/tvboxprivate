@@ -23,6 +23,13 @@
       "playerType": 2,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
+        {
+      "key": "豆瓣",
+      "name": "豆瓣肥猫",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
 {
       "key": "Doubana",
       "name": "豆瓣",
@@ -59,6 +66,42 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+        {
+      "key": "csp_Netfixtv",
+      "name": "💌┃️至臻┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      }
+    },
+        {
+      "key": "csp_Qiyou",
+      "name": "🥝┃奇优┃影视",
+      "type": 3,
+      "api": "csp_Qiyou"
+    },
+    {
+      "key": "荐片",
+      "name": "🎬┃荐片┃影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2",
+      "ext": "https://ev2089.zxbwv.com"
     },
     {
       "key": "拾光",
