@@ -459,21 +459,6 @@
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
-
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "push_agent",
-      "name": "关注公众号：肥猫宝贝",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0,
-      "ext": ".json/txt/ken.txt"
-    }
   ],
   "parses": [
     {
@@ -492,7 +477,7 @@
       "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
     },
     {
-      "name": "肥猫最可爱",
+      "name": "聚合",
       "type": 1,
       "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
       "ext": {
