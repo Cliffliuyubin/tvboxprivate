@@ -484,16 +484,6 @@
         "ratio": 1.333
       }
     },
-    {
-      "key": "push_agent",
-      "name": "LL专用",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0,
-      "ext": ".json/txt/ken.txt"
-    }
-  ],
   "parses": [
     {
       "name": "Json聚合",
