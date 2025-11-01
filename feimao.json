@@ -11,6 +11,14 @@
       "searchable": 0
     },
     {
+      "key": "豆瓣预告",
+      "name": "🐼┃豆瓣┃预告",
+      "type": 3,
+      "api": "csp_YGP",
+      "playerType": 2,
+      "searchable": 0
+    },
+    {
       "key": "天天",
       "name": "天天追剧",
       "type": 3,
