@@ -34,7 +34,7 @@
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
-      "key": "NoSearch_csp_DiDuan",
+      "key": "csp_DiDuan",
       "name": "低端┃影视",
       "type": 3,
       "api": "csp_Ddrk",
@@ -92,6 +92,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "jar": "./jar/main_baohejiekou.jar",
       "ext": {
         "搜索url": "https://www.kdie.cc/search/?wd={wd}",
         "搜索链接": "href=\"&&\"",
@@ -104,6 +105,7 @@
       "name": "高清┃影院",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/main_baohejiekou.jar",
       "ext": {
         "分类url": "http://www.wuyevod.com/index.php/vod/type/id/{cateId}.html",
         "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$5"
@@ -114,6 +116,7 @@
       "name": "电影┃驿站",
       "type": 3,
       "api": "csp_XBPQ",
+      "jar": "./jar/main_baohejiekou.jar",
       "ext": {
         "分类url": "https://www.dyyz1.app/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
         "分类": "电影$1#剧集$2#综艺$3#动漫$4"
