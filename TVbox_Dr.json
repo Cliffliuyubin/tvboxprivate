@@ -24,7 +24,23 @@
       "playerType": 2,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
-{
+    {
+      "key": "南瓜",
+      "name": "南瓜┃秒播APP",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },
+    {
+      "key": "热播",
+      "name": "热播┃App",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "ext": "7lj763gg0939791h1l3888jig44gi291li"
+    },
+    {
       "key": "DoubanGuard",
       "name": "豆瓣",
       "type": 3,
