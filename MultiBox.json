@@ -39,6 +39,24 @@
         ]
       }
     },
+   {
+      "key": "热播影视",
+      "name": "热播┃影视",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "csp_Qiyou",
+      "name": "奇优┃影视",
+      "type": 3,
+      "api": "csp_Qiyou"
+    },
     {
       "key": "天天",
       "name": "天天┃追剧",
@@ -47,22 +65,23 @@
       "playerType": 2,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
+   {
+      "key": "DDYS",
+      "name": "低端┃影视0",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://ddys.pro/category/{cateId}",
+        "分类": "欧美电影$movie/western-movie/#欧美剧$drama/western-drama/#动漫$3#综艺$4#短剧$5"
+      }
+    },
     {
       "key": "NoSearch_csp_DiDuan",
       "name": "低端┃影视",
       "type": 3,
-      "api": "https://ddys.pro/category/movie/",
+      "api": "https://ddys.pro",
       "searchable": 1,
       "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "Dygang",
-      "name": "电影港",
-      "type": 3,
-      "api": "csp_Dygang",
-      "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
@@ -101,12 +120,6 @@
         "siteApi": "get",
         "version": ""
       }
-    },
-    {
-      "key": "csp_Qiyou",
-      "name": "奇优┃肥六",
-      "type": 3,
-      "api": "csp_Qiyou"
     },
     {
       "key": "鲨鱼影视",
@@ -172,18 +185,6 @@
       }
     },
     {
-      "key": "热播影视",
-      "name": "热播┃十三",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      }
-    },
-    {
       "key": "柠檬",
       "name": "柠檬┃十七",
       "type": 3,
@@ -231,7 +232,7 @@
     },
     {
       "key": "Dygang",
-      "name": "电影┃三三",
+      "name": "电影┃港湾",
       "type": 3,
       "api": "csp_Dygang",
       "jar": "./lib/lh250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
