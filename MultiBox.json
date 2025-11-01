@@ -75,26 +75,15 @@
         "分类": "欧美电影$movie/western-movie#欧美剧$drama/western-drama#动漫$3#综艺$4#短剧$5"
       }
     },
-    {
-      "key": "NoSearch_csp_DiDuan",
-      "name": "低端┃影视",
-      "type": 3,
-      "api": "https://ddys.pro",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-      {
-			"key": "南瓜",
-			"name": "南瓜┃App",
+	{
+			"key": "csp_DiDuan",
+			"name": "低端┃外剧",
 			"type": 3,
-			"api": "csp_NanGua",
-			"playerType": 2,
+			"api": "csp_Ddrk",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
-		},
+	},
     {
       "key": "csp_Duopan",
       "name": "蜡笔┃肥二",
