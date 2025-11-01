@@ -25,18 +25,8 @@
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
-      "key": "DoubanGuard",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1747636545646/douban.json"
-    },
-    {
       "key": "NoSearch_csp_DiDuan",
-      "name": "低端┃无搜索",
+      "name": "低端┃影视",
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
@@ -54,12 +44,28 @@
     },
     {
       "key": "Dygang",
-      "name": "电影港[边下边播]",
+      "name": "电影港",
       "type": 3,
       "api": "csp_Dygang",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+   {
+      "key": "csp_Kugou",
+      "name": "酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Yoursmile.jar",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
+      }
     },
     {
       "key": "拾光",
@@ -87,22 +93,6 @@
       "api": "csp_Jpys",
       "playerType": 1,
       "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
-    },
-    {
-      "key": "csp_Kugou",
-      "name": "酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Yoursmile.jar",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
     },
     {
       "key": "巧技二",
