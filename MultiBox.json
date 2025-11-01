@@ -2,7 +2,7 @@
   "spider": "./bh06151.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "https://img.fy6b.com/2024/07/15/161bacbec4079.png",
-  "warningText": "声明：资源来自网络，无盈利，所有内容仅供学习测试使用，请勿用于违法及商业用途，请勿付费购买，测试之后请自行删除]",
+  "warningText": "资源来自网络，仅供学习]",
   "lives": [
     {
       "name": "线路①",
@@ -17,22 +17,11 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "软件/接口免费，请勿贩卖",
+      "name": "豆瓣影视",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1
-    },
-    {
-      "key": "alllive",
-      "name": "聚合┃直播",
-      "type": 3,
-      "api": "csp_AllliveGuard",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1751359904682/f0701.jpg;md5;8432d174d72d5b608ae1bcd16d966847",
-      "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
     },
     {
       "key": "csp_Duopan",
@@ -55,19 +44,6 @@
           "threads": 16
         },
         "url_key": "Duopan2"
-      }
-    },
-    {
-      "key": "蔬菜",
-      "name": "蔬菜┃肥三",
-      "type": 3,
-      "api": "csp_AppGet",
-      "jar": "https://6296.kstore.vip/PandaQ250828.jpg;md5;faff0adc799face065ec66a0ee01761e",
-      "ext": {
-        "url": "http://huohu.yihn.cc",
-        "dataKey": "huohushipingetap",
-        "siteApi": "get",
-        "version": "140"
       }
     },
     {
@@ -317,7 +293,7 @@
     },
     {
       "key": "嫖嫖嫖",
-      "name": "嫖嫖┃四五",
+      "name": "高速┃四五",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -328,7 +304,6 @@
         "影片类型": "tags\">&&director\">",
         "影片状态": "bottom\">&&</div>",
         "二次截取": "videoList\":\\[&&\\]",
-        "数组": "{&&}[不包含:伦理剧]",
         "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
         "标题": "vodName\":\"&&\"",
         "副标题": "vodRemarks\":\"&&\"",
@@ -370,21 +345,6 @@
         "分类": "电影$movie#连续剧$series#动漫$anime#综艺$variety#动画片$animation#纪录片$documentary#电影解说$jieshuo#网络短剧$skit#体育$sports",
         "嗅探词": ".m3u8#.m3u8?#v3.huoshanvod.com#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4#video_mp4",
         "过滤词": "/hls/#php"
-      }
-    },
-    {
-      "key": " 百姓 ",
-      "name": "百姓┃四九",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ua": "okhttp/3.15",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "特别提醒您请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p >",
-        "分类url": "https://www.gymboreejn.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.gymboreejn.com/vodtype/{cateId}.html]",
-        "分类": "电影$1#剧集$2#综艺$3#动漫$4#动画片$29#短剧$31#影视解说$32#邵氏电影$39"
       }
     },
     {
@@ -724,102 +684,8 @@
       }
     },
     {
-      "key": "小灯塔国学",
-      "name": "宝宝📚国学",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./lib/BHQX.jar",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/小灯塔国学.json"
-    },
-    {
-      "key": "儿童",
-      "name": "儿童📚启蒙",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/兔小贝.js"
-    },
-    {
-      "key": "csp_少儿",
-      "name": "少儿📚教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "csp_小学",
-      "name": "小学📚课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "csp_初中",
-      "name": "初中📚课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "csp_高中",
-      "name": "高中📚课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "ext_live_protocol",
-      "name": "导航 http://ttrj.ysepan.com/",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "cc",
-      "name": "请勿相信视频中任何广告",
+      "name": "Dr.专用",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 0,
