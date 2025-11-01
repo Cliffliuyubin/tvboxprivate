@@ -23,6 +23,49 @@
       "searchable": 0,
       "changeable": 1
     },
+   {
+      "key": "csp_Kugou",
+      "name": "酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "jar": "./lib/Yoursmile.jar",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
+      }
+    },
+    {
+      "key": "天天",
+      "name": "天天┃追剧",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "ext": "7lj763gg0939791h1l3888jig44gi291li"
+    },
+    {
+      "key": "NoSearch_csp_DiDuan",
+      "name": "低端┃影视",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "Dygang",
+      "name": "电影港",
+      "type": 3,
+      "api": "csp_Dygang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
     {
       "key": "csp_Duopan",
       "name": "蜡笔┃肥二",
@@ -665,22 +708,6 @@
         "简介": "剧情介绍: +stui-content__desc col-pd clearfix\">&&</div>",
         "分类url": "https://www.appmovie.cc/index.php/vod/show/area/{area}/{year}/class/{class}/id/{cateId}/page/{catePg}.html",
         "分类": "电影$1#连续剧$2#动漫$4#综艺$3"
-      }
-    },
-    {
-      "key": "csp_Kugou",
-      "name": "某狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "jar": "./lib/Yoursmile.jar",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
       }
     },
     {
