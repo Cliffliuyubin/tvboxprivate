@@ -17,6 +17,15 @@
   ],
   "sites": [
     {
+      "key": "豆瓣",
+      "name": "豆瓣┃影视",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "jar": "./jar/main_baohejiekou.jar"
+    },
+    {
       "key": "天天",
       "name": "天天┃追剧",
       "type": 3,
@@ -56,7 +65,7 @@
       "name": "酷狗┃音乐",
       "type": 3,
       "api": "csp_Kugou",
-      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Yoursmile.jar",
+      "jar": "./jar/Yoursmile.jar",
       "playerType": 2,
       "ext": {
         "classes": [
