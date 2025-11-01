@@ -459,6 +459,15 @@
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
+    {
+      "key": "push_agent",
+      "name": "Dr. 专用",
+      "type": 3,
+      "api": "csp_Push",
+      "playerType": "1",
+      "searchable": 0,
+      "ext": ".json/txt/ken.txt"
+    }
   ],
   "parses": [
     {
