@@ -51,7 +51,7 @@
       "key": "NoSearch_csp_DiDuan",
       "name": "低端┃影视",
       "type": 3,
-      "api": "csp_Ddrk",
+      "api": "https://ddys.pro/category/",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
@@ -372,7 +372,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "搜索url": "https://www.diemi.cc/search/?wd={wd}",
+        "搜索url": "https://www.kdie.cc/search/?wd={wd}",
         "搜索链接": "href=\"&&\"",
         "分类url": "https://www.iidie.com/type-{cateId}-{catePg}/",
         "分类": "国产$guochan#韩剧$hanju#港剧$gangju#美剧$meiju#日剧$riju#台剧$taibei#泰剧$taiju#短剧$duanju#动作片$dongzuo#喜剧片$xiju#爱情片$aiqing#科幻片$kehuan#恐怖片$kongbu#战争片$zhanzheng#剧情片$juqing#动漫$dongman#综艺$zongyi"
@@ -558,8 +558,9 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "http://www.wuyevod.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#剧集$2#综艺$3#动漫$4#午夜$5"
+        "分类url": "http://www.wuyevod.com/index.php/vod/type/id/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+       // "分类url": "http://www.wuyevod.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$5"
       }
     },
     {
@@ -648,6 +649,7 @@
         "剧情片",
         "冒险片",
         "记录片",
+        "伦理片",
         "动作片",
         "日本剧",
         "泰剧",
