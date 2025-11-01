@@ -1,6 +1,7 @@
 {
   "spider": "https://gitee.com/drxiaobaicai/tvboxprivate/blob/master/jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
   "wallpaper": "https://bing.img.run/uhd.php",
+  "warningText": "资源来自网络，仅供学习使用，请勿付费购买",
   "lives": [
     {
       "group": "redirect",
@@ -24,7 +25,7 @@
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
 {
-      "key": "豆瓣",
+      "key": "DoubanGuard",
       "name": "豆瓣",
       "type": 3,
       "api": "csp_DoubanGuard",
@@ -42,6 +43,38 @@
       "playerType": 2,
       "quickSearch": 1,
       "filterable": 0
+    },
+     {
+      "key": "秒看",
+      "name": "⏱️秒看┃超清┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.top/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+        {
+      "key": "热剧",
+      "name": "🍋热剧┃超清┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "http://我不是.摸鱼儿.top/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "ext": {
+        "url": "https://www.rebovod.com",
+        "site": "",
+        "dataKey": "8191A7F47B37882F",
+        "dataIv": "8191A7F47B37882F",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
     },
     {
       "key": "追剧",
