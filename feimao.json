@@ -348,21 +348,6 @@
       "api": "csp_SP360"
     },
     {
-      "key": "csp_Bili",
-      "name": "🅱┃️哔哩┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 2,
-      "ext": {
-        "json": "./lib/bili.json",
-        "cookie": ""
-      },
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
       "key": "csp_Dm84",
       "name": "🤣┃动漫┃巴士",
       "type": 3,
@@ -379,23 +364,11 @@
       "ext": "https://www.4kvm.tv"
     },
     {
-      "key": "csp_FirstAid",
-      "name": "🚑┃急救┃教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "gridview": "0-0-4.1"
-    },
-    {
-      "key": "酷狗",
-      "name": "🐾┃酷狗┃音乐",
+      "key": "csp_Kugou",
+      "name": "酷狗┃音乐",
       "type": 3,
       "api": "csp_Kugou",
+      "jar": "https://gitee.com/tianwikeji/jar/raw/master/Yoursmile.jar",
       "playerType": 2,
       "ext": {
         "classes": [
@@ -431,26 +404,6 @@
         "ratio": 1.333
       },
       "ext": ""
-    },
-    {
-      "key": "看球",
-      "name": "⚾┃看球┃直播",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "米搜",
-      "name": "🌖┃米搜┃网盘",
-      "type": 3,
-      "api": "csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
     },
     {
       "key": "csp_PanSearch",
