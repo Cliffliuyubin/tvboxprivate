@@ -72,7 +72,7 @@
       "api": "csp_XBPQ",
       "ext": {
         "分类url": "https://ddys.pro/category/{cateId}",
-        "分类": "欧美电影$movie/western-movie/#欧美剧$drama/western-drama/#动漫$3#综艺$4#短剧$5"
+        "分类": "欧美电影$movie/western-movie#欧美剧$drama/western-drama#动漫$3#综艺$4#短剧$5"
       }
     },
     {
@@ -85,6 +85,16 @@
       "quickSearch": 1,
       "filterable": 0
     },
+      {
+			"key": "南瓜",
+			"name": "南瓜┃App",
+			"type": 3,
+			"api": "csp_NanGua",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
     {
       "key": "csp_Duopan",
       "name": "蜡笔┃肥二",
