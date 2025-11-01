@@ -70,17 +70,6 @@
 		"changeable": 1,
         "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fantaiying.jar"
 	},
-    {
-		"key": "南瓜",
-		"name": "南瓜┃影院",
-		"type": 3,
-		"api": "csp_NanGua",
-		"playerType": 2,
-		"searchable": 1,
-		"quickSearch": 1,
-		"changeable": 1,
-        "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fix250711.jar"
-	},
      {
       "key": "csp_Qiyou",
       "name": "奇优┃影视",
@@ -338,8 +327,8 @@
       }
     },
     {
-      "key": "嫖嫖嫖",
-      "name": "高速┃四五",
+      "key": "高速影视",
+      "name": "高速┃影院",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -368,7 +357,7 @@
     },
     {
       "key": "碟迷",
-      "name": "知足┃四六",
+      "name": "碟迷┃剧场",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
