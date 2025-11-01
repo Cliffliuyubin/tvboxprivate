@@ -82,7 +82,8 @@
 			"api": "csp_Ddrk",
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1
+			"changeable": 1,
+            "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fantaiying.jar"
 	},
     {
       "key": "csp_Duopan",
