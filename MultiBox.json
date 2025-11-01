@@ -51,7 +51,7 @@
       "key": "NoSearch_csp_DiDuan",
       "name": "低端┃影视",
       "type": 3,
-      "api": "https://ddys.pro/category/",
+      "api": "https://ddys.pro/category/movie/",
       "searchable": 1,
       "playerType": 2,
       "quickSearch": 1,
@@ -342,7 +342,7 @@
       "ext": {
         "主页url": "https://www.gs4x7nq4.com/",
         "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
-        "简介": "公众号宝盒APP提醒您⚠请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
+        "简介": "</label>&&</div>",
         "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
         "影片类型": "tags\">&&director\">",
         "影片状态": "bottom\">&&</div>",
@@ -558,8 +558,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "http://www.wuyevod.com/index.php/vod/type/id/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-       // "分类url": "http://www.wuyevod.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类url": "http://www.wuyevod.com/index.php/vod/type/id/{cateId}.html",
         "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$5"
       }
     },
@@ -611,6 +610,7 @@
         "冒险片",
         "记录片",
         "动作片",
+        "伦理片",
         "日本剧",
         "泰剧",
         "国产综艺",
