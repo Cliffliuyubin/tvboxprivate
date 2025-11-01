@@ -60,28 +60,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-        {
-      "key": "csp_Netfixtv",
-      "name": "💌┃️至臻┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://xiaomi666.fun",
-          "https://xiaomiai.site",
-          "https://mihdr.top",
-          "https://www.mihdr.top",
-          "http://www.miqk.cc",
-          "https://www.zhizhenpan.fun"
-        ],
-        "url_key": "Netfixtv2",
-        "threadinfo": {
-          "chunksize": 512,
-          "threads": 16
-        }
-      }
-    },
     {
       "key": "拾光",
       "name": "拾光┃秒播APP",
