@@ -31,21 +31,6 @@
       "filterable": 0
     },
     {
-      "key": "config",
-      "name": "🐼┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
-    },
-    {
-      "key": "living",
-      "name": "🐼┃游戏┃直播",
-      "type": 3,
-      "api": "csp_Living",
-      "playerType": 2,
-      "ext": "https://api.muxia.fun"
-    },
-    {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐",
       "type": 3,
