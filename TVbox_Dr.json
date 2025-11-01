@@ -17,7 +17,7 @@
   "sites": [
     {
       "key": "天天",
-      "name": "天天",
+      "name": "天天追剧",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 2,
@@ -31,7 +31,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/json/douban.json"
+      "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1747636545646/douban.json"
     },
     {
       "key": "NoSearch_csp_DiDuan",
