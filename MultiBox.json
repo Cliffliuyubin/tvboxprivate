@@ -39,7 +39,16 @@
         ]
       }
     },
-   {
+    {
+      "key": "天天",
+      "name": "天天┃追剧",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "ext": "7lj763gg0939791h1l3888jig44gi291li",
+      "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fix250711.jar"
+    },
+     {
       "key": "热播影视",
       "name": "热播┃影视",
       "type": 3,
@@ -51,40 +60,33 @@
         "url": "http://v.rbotv.cn"
       }
     },
+	{
+		"key": "csp_DiDuan",
+		"name": "低端┃外剧",
+		"type": 3,
+		"api": "csp_Ddrk",
+		"searchable": 1,
+		"quickSearch": 1,
+		"changeable": 1,
+        "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fantaiying.jar"
+	},
     {
+		"key": "南瓜",
+		"name": "南瓜┃影院",
+		"type": 3,
+		"api": "csp_NanGua",
+		"playerType": 2,
+		"searchable": 1,
+		"quickSearch": 1,
+		"changeable": 1,
+        "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fantaiying.jar"
+	},
+     {
       "key": "csp_Qiyou",
       "name": "奇优┃影视",
       "type": 3,
       "api": "csp_Qiyou"
     },
-    {
-      "key": "天天",
-      "name": "天天┃追剧",
-      "type": 3,
-      "api": "csp_TTian",
-      "playerType": 2,
-      "ext": "7lj763gg0939791h1l3888jig44gi291li"
-    },
-   {
-      "key": "DDYS",
-      "name": "低端┃影视0",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://ddys.pro/category/{cateId}",
-        "分类": "欧美电影$movie/western-movie#欧美剧$drama/western-drama#动漫$3#综艺$4#短剧$5"
-      }
-    },
-	{
-			"key": "csp_DiDuan",
-			"name": "低端┃外剧",
-			"type": 3,
-			"api": "csp_Ddrk",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-            "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fantaiying.jar"
-	},
     {
       "key": "csp_Duopan",
       "name": "蜡笔┃肥二",
