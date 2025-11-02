@@ -3,6 +3,13 @@
   "wallpaper": "https://bing.img.run/uhd.php",
   "warningText": "资源来自网络，仅供学习使用，请勿付费购买",
   "lives": [
+     {
+      "name": "范明明",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/onlylove2023/iptv/refs/heads/main/IPTV.m3u",
+      "playerType": 2,
+      "timeout": 10
+    },
     {
       "name": "Guovin",
       "type": 0,
@@ -31,13 +38,6 @@
       "name": "裤佬直播",
       "type": 0,
       "url": "https://ghfast.top/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
-      "name": "范明明",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
       "playerType": 2,
       "timeout": 10
     },
