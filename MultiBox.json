@@ -8,7 +8,7 @@
       "name": "线路①",
       "type": 0,
       "url": "http://宝盒接口.top/zb",
-      "playerType": 2,
+      "playerType": 1,
       "ua": "okhttp/3",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png"
@@ -23,28 +23,12 @@
       "searchable": 0,
       "changeable": 1
     },
-   {
-      "key": "csp_Kugou",
-      "name": "酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "jar": "./lib/Yoursmile.jar",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
-    },
     {
       "key": "天天",
       "name": "天天┃追剧",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 4,
+      "playerType": 1,
       "ext": "7lj763gg0939791h1l3888jig44gi291li",
       "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fix250711.jar"
     },
@@ -97,6 +81,22 @@
           "threads": 16
         },
         "url_key": "Duopan2"
+      }
+    },
+       {
+      "key": "csp_Kugou",
+      "name": "酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "jar": "./lib/Yoursmile.jar",
+      "playerType": 1,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
       }
     },
     {
