@@ -51,16 +51,16 @@
       "playerType": 2
     }
   ],
-  "sites": [
+  "sites": [   
     {
       "key": "豆瓣",
       "name": "豆瓣┃影视",
       "type": 3,
-      "api": "csp_DoubanGuard",
+      "api": "csp_Douban",
       "searchable": 1,
       "changeable": 1,
       "filterable": 0,
-      "jar": "./jar/wangerxiaoJAR.png"
+      "jar": "./jar/main_baohejiekou.jar"
     },
     {
       "key": "天天",
