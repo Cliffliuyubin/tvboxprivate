@@ -67,7 +67,7 @@
       "name": "天天┃追剧",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 2,
+      "playerType": 4,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
     {
@@ -76,7 +76,7 @@
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
-      "playerType": 2,
+      "playerType": 4,
       "quickSearch": 1,
       "filterable": 0
     },
@@ -85,7 +85,7 @@
       "name": "追剧┃App",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 2,
+      "playerType": 4,
       "ext": "7lj763gg0939791h1l2681i6g94li291li"
     },
     {
