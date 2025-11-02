@@ -44,7 +44,7 @@
       "name": "天天┃追剧",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 2,
+      "playerType": 4,
       "ext": "7lj763gg0939791h1l3888jig44gi291li",
       "jar":"https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fix250711.jar"
     },
