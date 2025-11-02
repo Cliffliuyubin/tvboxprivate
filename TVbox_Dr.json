@@ -7,7 +7,7 @@
       "name": "范明明",
       "type": 0,
       "url": "https://raw.githubusercontent.com/onlylove2023/iptv/refs/heads/main/IPTV.m3u",
-      "playerType": 2,
+      "playerType": 1,
       "timeout": 10
     },
     {
@@ -65,7 +65,7 @@
     {
       "key": "天天",
       "name": "天天┃追剧",
-      "type": 3,
+      "type": 1,
       "api": "csp_TTian",
       "playerType": 4,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
@@ -76,7 +76,7 @@
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
-      "playerType": 4,
+      "playerType": 1,
       "quickSearch": 1,
       "filterable": 0
     },
@@ -85,7 +85,7 @@
       "name": "追剧┃App",
       "type": 3,
       "api": "csp_TTian",
-      "playerType": 4,
+      "playerType": 1,
       "ext": "7lj763gg0939791h1l2681i6g94li291li"
     },
     {
@@ -103,7 +103,7 @@
       "type": 3,
       "api": "csp_Kugou",
       "jar": "./jar/Yoursmile.jar",
-      "playerType": 2,
+      "playerType": 1,
       "ext": {
         "classes": [
           {
