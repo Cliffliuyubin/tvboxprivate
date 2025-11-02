@@ -24,8 +24,7 @@
       "searchable": 1,
       "changeable": 1,
       "filterable": 0,
-      "jar": "./jar/wangerxiaoJAR.png",
-      "ext": "./json/douban.json"
+      "jar": "./jar/wangerxiaoJAR.png"
     },
     {
       "key": "天天",
