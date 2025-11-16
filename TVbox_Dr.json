@@ -293,7 +293,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/d/moyuer.php;md5;36456a794b9f6d670931667d79bf8e9c",
+      "jar": "./jar/moyumoyu.php;md5;36456a794b9f6d670931667d79bf8e9c",
       "ext": {
         "url": "http://ys.qist.top",
         "site": "",
