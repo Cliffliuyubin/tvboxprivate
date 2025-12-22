@@ -77,7 +77,7 @@
       "api": "csp_NewCzGuard",
       "jar": "./jar/moyumoyu.php;md5;36456a794b9f6d670931667d79bf8e9c",
       "timeout": 10,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
