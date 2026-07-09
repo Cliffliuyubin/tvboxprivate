@@ -53,7 +53,7 @@
       "type": 3,
       "api": "csp_TTian",
       "playerType": 2,
-      "jar": "./jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01"
+      "jar": "./jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
         {
@@ -75,7 +75,7 @@
       "api": "csp_Dygang",
       "searchable": 1,
       "quickSearch": 1,
-      "jar": "./jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01"
+      "jar": "./jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
       "filterable": 0
     },
         {
@@ -139,7 +139,7 @@
         "日韩动漫"
       ]
     },
-        {
+    {
             "key": "顾我99",
             "name": "顾我丨APP",
             "type": 3,
