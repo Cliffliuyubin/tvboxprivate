@@ -5,29 +5,10 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "公众号｜不会唱歌的鱼妖 (关注不迷路)",
+            "name": "douban",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
-        },
-        {
-            "key": "配置中心",
-            "name": "配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
         },
         {
             "key": "热播影视",
@@ -41,6 +22,123 @@
                 "url": "http://v.rbotv.cn"
             }
         },
+          {
+            "key": "热播多线",
+            "name": "热播｜多线",
+            "type": 3,
+            "api": "csp_AppTTGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "uqGL1bNENExT7/hGxpSE5qU=",
+            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
+        },
+         {
+            "key": "厂长秒播",
+            "name": "厂长｜秒播",
+            "type": 3,
+            "api": "csp_NewCzGuard",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
+        },
+      {
+      "key": "天天",
+      "name": "天天┃追剧",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "jar": "./jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01"
+      "ext": "7lj763gg0939791h1l3888jig44gi291li"
+    },
+        {
+            "key": "新6V磁力",
+            "name": "新6V｜磁力",
+            "type": 3,
+            "api": "csp_SixVGuard",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "https://www.xb6v.com/",
+            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
+        },
+    {
+      "key": "Dygang",
+      "name": "电影港",
+      "type": 3,
+      "api": "csp_Dygang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "jar": "./jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01"
+      "filterable": 0
+    },
+        {
+            "key": "厂长影视",
+            "name": "厂长｜影视",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://cz01.vip"
+        },
+     {
+      "key": "高清影院",
+      "name": "高清┃影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/main_baohejiekou.jar",
+      "ext": {
+        "分类url": "http://www.wuyevod.com/index.php/vod/type/id/{cateId}.html",
+        "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$5"
+      }
+    },
+        {
+      "key": "新浪影视",
+      "name": "新浪┃影视",
+      "type": 1,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "短剧",
+        "韩国剧",
+        "香港剧",
+        "台湾剧",
+        "欧美剧",
+        "动作片",
+        "科幻片",
+        "战争片",
+        "奇幻片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "犯罪片",
+        "悬疑片",
+        "惊悚片",
+        "剧情片",
+        "冒险片",
+        "记录片",
+        "动作片",
+        "伦理片",
+        "日本剧",
+        "泰剧",
+        "国产综艺",
+        "港台综艺",
+        "欧美综艺",
+        "日韩综艺",
+        "国产动漫",
+        "港台动漫",
+        "日韩动漫"
+      ]
+    },
         {
             "key": "顾我99",
             "name": "顾我丨APP",
@@ -90,19 +188,6 @@
             }
         },
         {
-            "key": "热播多线",
-            "name": "热播｜多线",
-            "type": 3,
-            "api": "csp_AppTTGuard",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
-        },
-        {
             "key": "糯米秒播",
             "name": "糯米｜秒播",
             "type": 3,
@@ -129,18 +214,6 @@
             "name": "文采｜秒播",
             "type": 3,
             "api": "csp_JpysGuard",
-            "timeout": 10,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
-        },
-        {
-            "key": "厂长秒播",
-            "name": "厂长｜秒播",
-            "type": 3,
-            "api": "csp_NewCzGuard",
             "timeout": 10,
             "playerType": 2,
             "searchable": 1,
@@ -208,18 +281,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
-        },
-        {
-            "key": "新6V磁力",
-            "name": "新6V｜磁力",
-            "type": 3,
-            "api": "csp_SixVGuard",
-            "timeout": 10,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": "https://www.xb6v.com/",
             "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
         },
         {
@@ -318,13 +379,6 @@
                 "港台动漫",
                 "海外动漫"
             ]
-        },
-        {
-            "key": "预告",
-            "name": "新片｜预告",
-            "type": 3,
-            "api": "csp_YGP",
-            "searchable": 0
         },
         {
             "key": "三秋影视",
@@ -860,16 +914,6 @@
             "api": "csp_Duboku"
         },
         {
-            "key": "厂长影视",
-            "name": "厂长｜影视",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://cz01.vip"
-        },
-        {
             "key": "金牌影视",
             "name": "金牌｜影视",
             "type": 3,
@@ -1054,58 +1098,6 @@
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/magnet/json/DYG.json"
         },
         {
-            "key": "阿里云盘",
-            "name": "阿里｜云盘",
-            "type": 3,
-            "api": "csp_PanAli",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "夸克网盘",
-            "name": "夸克｜网盘",
-            "type": 3,
-            "api": "csp_PanQuark",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "UC网盘",
-            "name": "UC｜网盘",
-            "type": 3,
-            "api": "csp_PanUC",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "百度网盘",
-            "name": "百度｜网盘",
-            "type": 3,
-            "api": "csp_PanBaidu",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            }
-        },
-        {
             "key": "糖果",
             "name": "糖果｜搜索",
             "type": 3,
@@ -1140,26 +1132,6 @@
             "name": "鬼鬼｜搜索",
             "type": 3,
             "api": "csp_GuiGui",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "天翼",
-            "name": "天翼｜搜索",
-            "type": 3,
-            "api": "csp_TianYiSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "趣盘",
-            "name": "趣盘｜搜索",
-            "type": 3,
-            "api": "csp_QuPanSo",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -1203,69 +1175,6 @@
             }
         },
         {
-            "key": "呦呦DJ",
-            "name": "呦呦｜DJ",
-            "type": 3,
-            "api": "csp_Djuu",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "轮回DJ",
-            "name": "轮回｜DJ",
-            "type": 3,
-            "api": "csp_Djlh",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "蜻蜓FM",
-            "name": "蜻蜓｜FM",
-            "type": 3,
-            "api": "csp_QingtingFM",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "世界听书",
-            "name": "世界｜听书",
-            "type": 3,
-            "api": "csp_TingShijie",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "戏曲多多",
-            "name": "戏曲｜多多",
-            "type": 3,
-            "api": "csp_AppLY",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱听音乐",
-            "name": "爱听｜音乐",
-            "type": 3,
-            "api": "https://git.yylx.win/https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/py/爱听音乐.py"
-        },
-        {
-            "key": "网络直播",
-            "name": "网络｜直播",
-            "type": 3,
-            "api": "https://git.yylx.win/https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/webcast/py/WLZB.py"
-        },
-        {
-            "key": "哔哩直播",
-            "name": "哔哩｜直播",
-            "type": 3,
-            "api": "https://git.yylx.win/https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/webcast/py/BLZB.py"
-        },
-        {
             "key": "哔哩合集",
             "name": "哔哩｜合集",
             "type": 3,
@@ -1281,184 +1190,6 @@
             "ext": {
                 "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/BLHJ.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            }
-        },
-        {
-            "key": "哔哩哔哩演唱会",
-            "name": "哔哩｜音乐",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLYCH.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩听书",
-            "name": "哔哩｜听书",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLTS.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩相声",
-            "name": "哔哩｜相声",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXS.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩小品",
-            "name": "哔哩｜小品",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXP.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩戏曲",
-            "name": "哔哩｜戏曲",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/BLXQ.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "少儿教育",
-            "name": "少儿｜教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/education/json/SEJY.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "小学课堂",
-            "name": "小学｜课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/education/json/XXKT.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "初中课堂",
-            "name": "初中｜课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/education/json/CZKT.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "高中课堂",
-            "name": "高中｜课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/education/json/GZKT.json",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "急救教学",
-            "name": "急救｜教学",
-            "type": 3,
-            "api": "csp_FirstAid",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            },
-            "gridview": "0-0-4.1"
-        },
-        {
-            "key": "养生堂",
-            "name": "养生｜知识",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/other/json/YST.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
             }
         },
         {
@@ -1540,9 +1271,9 @@
     ],
     "lives": [
         {
-            "name": "develop202",
+            "name": "Govin",
             "type": 0,
-            "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
             "playerType": 2,
             "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -1550,7 +1281,7 @@
         {
             "name": "Kimentanm",
             "type": 0,
-            "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+            "url": "https://live.zbds.top/tv/iptv4.txt",
             "playerType": 2
         }
     ],
