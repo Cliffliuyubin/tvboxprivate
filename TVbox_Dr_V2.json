@@ -40,7 +40,6 @@
             "name": "厂长｜秒播",
             "type": 3,
             "api": "csp_NewCzGuard",
-            "timeout": 10,
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
