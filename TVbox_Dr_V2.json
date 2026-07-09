@@ -964,19 +964,6 @@
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/json/DLXFS.json"
         },
         {
-            "key": "漫国动漫",
-            "name": "漫国丨动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppSy",
-            "ext": {
-                "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
-                "siteKey": "rectangleadsadxa",
-                "listKey": "aassddwwxxllsx1x",
-                "parsesKey": "aassddwwxxllsx1x"
-            }
-        },
-        {
             "key": "方舟动漫",
             "name": "方舟丨动漫",
             "type": 3,
@@ -1105,16 +1092,6 @@
             "timeout": 60
         },
         {
-            "key": "88看球",
-            "name": "88｜看球",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "gridview": 3,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "球通体育",
             "name": "球通｜体育",
             "type": 3,
@@ -1150,15 +1127,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
-        {
-            "key": "push_agent",
-            "name": "手机｜推送",
-            "type": 3,
-            "api": "csp_Push",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0
-        }
     ],
     "parses": [
         {
