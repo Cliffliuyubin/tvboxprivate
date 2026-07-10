@@ -20,9 +20,9 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
     {
-      "name": "ZBDSiptv6",
+      "name": "ZBDSiptv4",
       "type": 0,
-      "url": "https://live.zbds.top/tv/iptv6.m3u",
+      "url": "https://live.zbds.top/tv/iptv4.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png",
       "timeout": 10,
@@ -48,28 +48,30 @@
       "playerType": 1,
       "ext": "7lj763gg0939791h1l3888jig44gi291li"
     },
-    {
-      "key": "厂长",
-      "name": "厂长┃纯净",
-      "type": 3,
-      "api": "csp_NewCzGuard",
-      "jar": "./jar/moyumoyu.php;md5;588615758b58becade1485bde0600132",
-      "timeout": 10,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_DiDuan",
-      "name": "低端┃影视",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
+       {
+            "key": "热播多线",
+            "name": "热播｜多线",
+            "type": 3,
+            "api": "csp_AppTTGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "uqGL1bNENExT7/hGxpSE5qU=",
+            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
+        },
+         {
+            "key": "厂长秒播",
+            "name": "厂长｜秒播",
+            "type": 3,
+            "api": "csp_NewCzGuard",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./jar/Bee.jar;md5;8F59443D53D73EF5E34581B77E3C5A15"
+        },
     {
       "key": "追剧",
       "name": "追剧┃App",
@@ -87,6 +89,23 @@
       "quickSearch": 1,
       "filterable": 0
     },
+    {
+            "key": "橙子99",
+            "name": "橙子丨APP",
+            "type": 3,
+            "api": "csp_App99",
+            "jar": "./jar/Frog.jar;md5;F28DFDF21C9F6B02DCC483EA136E3CB1",
+            "ext": {
+                "host": "http://113.31.180.218:19987/app/bn",
+                "LoginPath": "/app/log",
+                "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
+                "versionName": "4.3.1",
+                "name": "小橙子",
+                "package": "com.xchengzix.app",
+                "buildNumber": "2001",
+                "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
+            }
+        },
    {
       "key": "csp_Kugou",
       "name": "酷狗┃音乐",
@@ -589,8 +608,77 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    }
+    },
+     {
+            "name": "xmflv",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "playm3u8",
+            "type": 0,
+            "url": "https://www.playm3u8.cn/jiexi.php?url="
+        },
+        {
+            "name": "ikun",
+            "type": 0,
+            "url": "https://jx.hls.one/?url="
+        },
+        {
+            "name": "77flv",
+            "type": 0,
+            "url": "https://jx.77flv.cc/?url="
+        },
+        {
+            "name": "8090",
+            "type": 0,
+            "url": "https://www.8090g.cn/?url="
+        }
   ],
+"doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
   "flags": [
     "youku",
     "qq",
@@ -612,6 +700,35 @@
     "dbs",
     "yds",
     "HNB",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+     "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+     "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+     "搜狐视频",
+    "tudou",
+     "pptv",
+    "mgtv",
+     "芒果",
+     "imgo",
+     "芒果TV",
+     "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩",
     "JL4K"
   ],
   "ijk": [
@@ -777,6 +894,65 @@
     }
   ],
   "ads": [
-    "43.248.128.138"
+    "43.248.128.138",
+    "static-mozai.4gtv.tv",
+    "fs-im-kefu.7moor-fs1.com",
+            "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3d.cn",
+        "mscs.svaeuzh.cn",
+        "cnzz.hhttm.top",
+        "tp.vinuxhome.com",
+        "cnzz.mmstat.com",
+        "www.baihuillq.com",
+        "s23.cnzz.com",
+        "z3.cnzz.com",
+        "c.cnzz.com",
+        "stj.v1vo.top",
+        "z12.cnzz.com",
+        "img.mosflower.cn",
+        "tips.gamevvip.com",
+        "ehwe.yhdtns.com",
+        "xdn.cqqc3.com",
+        "www.jixunkyy.cn",
+        "sp.chemacid.cn",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com",
+        "um.cavuc.com",
+        "mav.mavuz.com",
+        "wofwk.aoidf3.com",
+        "z5.cnzz.com",
+        "xc.hubeijieshikj.cn",
+        "tj.tianwenhu.com",
+        "xg.gars57.cn",
+        "k.jinxiuzhilv.com",
+        "cdn.bootcss.com",
+        "ppl.xunzhuo123.com",
+        "xomk.jiangjunmh.top",
+        "img.xunzhuo123.com",
+        "z1.cnzz.com",
+        "s13.cnzz.com",
+        "xg.huataisangao.cn",
+        "z7.cnzz.com",
+        "xg.huataisangao.cn",
+        "z2.cnzz.com",
+        "s96.cnzz.com",
+        "q11.cnzz.com",
+        "thy.dacedsfa.cn",
+        "xg.whsbpw.cn",
+        "s19.cnzz.com",
+        "z8.cnzz.com",
+        "s4.cnzz.com",
+        "f5w.as12df.top",
+        "ae01.alicdn.com",
+        "www.92424.cn",
+        "k.wudejia.com",
+        "vivovip.mmszxc.top",
+        "qiu.xixiqiu.com",
+        "cdnjs.hnfenxun.com",
+        "cms.qdwght.com"
   ]
 }
