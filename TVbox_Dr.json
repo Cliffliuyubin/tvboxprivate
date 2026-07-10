@@ -1,50 +1,28 @@
 {
   "spider": "https://gitee.com/drxiaobaicai/tvboxprivate/raw/master/jar/fix250711.jar;md5;54418536dc2a40da4e94437397895d01",
   "wallpaper": "https://bing.img.run/uhd.php",
-  "warningText": "资源来自网络，仅供学习使用，请勿付费购买",
+  "warningText": "天天开心",
   "lives": [
-     {
-      "name": "范明明",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/onlylove2023/iptv/refs/heads/main/IPTV.m3u",
-      "playerType": 1,
-      "timeout": 10
-    },
+      {
+            "name": "Govin-ipv4",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+            "playerType": 2,
+            "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "Govin-ipv6",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+            "playerType": 2,
+            "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
     {
-      "name": "Guovin",
+      "name": "ZBDSiptv6",
       "type": 0,
-      "url": "./lib/result.m3u",
-      "epg": "http://epg.51zmt.top:8000/e.xml",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "timeout": 10
-    },
-    {
-      "name": "Mursor",
-      "type": 0,
-      "url": "https://sub.ottiptv.cc/iptv.m3u",
-      "epg": "http://epg.51zmt.top:8000/e.xml",
-      "ua": "okHttp/Mod-1.2.0",
-      "timeout": 10,
-      "playerType": 2
-    },
-    {
-      "name": "sd-live",
-      "type": 0,
-      "url": "https://gitee.com/sd-live/zb/raw/master/mySJ",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "裤佬直播",
-      "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
-      "name": "ZBDS",
-      "type": 0,
-      "url": "./lib/iptv4.txt",
+      "url": "https://live.zbds.top/tv/iptv6.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png",
       "timeout": 10,
