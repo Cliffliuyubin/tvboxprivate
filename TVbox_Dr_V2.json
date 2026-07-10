@@ -1197,7 +1197,7 @@
     ],
     "lives": [
         {
-            "name": "Govin",
+            "name": "Govin-ipv4",
             "type": 0,
             "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
             "playerType": 2,
@@ -1205,9 +1205,17 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "Kimentanm",
+            "name": "Govin-ipv6",
             "type": 0,
-            "url": "https://live.zbds.top/tv/iptv4.txt",
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+            "playerType": 2,
+            "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "zbds-ipv6",
+            "type": 0,
+            "url": "https://live.zbds.top/tv/iptv6.m3u",
             "playerType": 2
         }
     ],
