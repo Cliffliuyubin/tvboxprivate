@@ -157,7 +157,7 @@
         },
         {
             "key": "橙子99",
-            "name": "橙子丨影视",
+            "name": "橙子丨APP",
             "type": 3,
             "api": "csp_App99",
             "ext": {
@@ -902,20 +902,6 @@
             "api": "csp_Gz360"
         },
         {
-            "key": "骚火影视",
-            "name": "骚火｜影视",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "ext": "https://shdy5.us"
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_Wwys",
-            "ext": "https://vip.wwgz.cn:5200"
-        },
-        {
             "key": "爱看影视",
             "name": "爱看｜影视",
             "type": 3,
@@ -923,13 +909,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "小镇影视",
-            "name": "小镇｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "https://git.yylx.win/https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/XZYS.json"
         },
         {
             "key": "面包影视",
@@ -1220,8 +1199,8 @@
         }
     ],
     "lives": [
-        {
-            "name": "Govin",
+    {
+            "name": "Govin-ipv4",
             "type": 0,
             "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
             "playerType": 2,
@@ -1229,11 +1208,22 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "Kimentanm",
+            "name": "Govin-ipv6",
             "type": 0,
-            "url": "https://live.zbds.top/tv/iptv4.txt",
-            "playerType": 2
-        }
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+            "playerType": 2,
+            "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+    {
+      "name": "ZBDSiptv4",
+      "type": 0,
+      "url": "https://live.zbds.top/tv/iptv4.m3u",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png",
+      "timeout": 10,
+      "playerType": 2
+    }
     ],
     "rules": [
         {
@@ -1264,32 +1254,6 @@
             ]
         },
         {
-            "name": "磁力广告",
-            "hosts": [
-                "magnet"
-            ],
-            "regex": [
-                "更多",
-                "请访问",
-                "example",
-                "社 區",
-                "x u u",
-                "直 播",
-                "更 新",
-                "社 区",
-                "有趣",
-                "有 趣",
-                "英皇体育",
-                "全中文AV在线",
-                "澳门皇冠赌场",
-                "哥哥快来",
-                "美女荷官",
-                "裸聊",
-                "新片首发",
-                "UUE29"
-            ]
-        },
-        {
             "name": "饭团点击",
             "hosts": [
                 "dadagui",
@@ -1312,47 +1276,37 @@
     ],
     "doh": [
         {
-            "name": "Google",
-            "url": "https://dns.google/dns-query",
-            "ips": [
-                "8.8.4.4",
-                "8.8.8.8"
-            ]
-        },
-        {
-            "name": "Cloudflare",
-            "url": "https://cloudflare-dns.com/dns-query",
-            "ips": [
-                "1.1.1.1",
-                "1.0.0.1",
-                "2606:4700:4700::1111",
-                "2606:4700:4700::1001"
-            ]
-        },
-        {
-            "name": "AdGuard",
-            "url": "https://dns.adguard.com/dns-query",
-            "ips": [
-                "94.140.14.140",
-                "94.140.14.141"
-            ]
-        },
-        {
-            "name": "DNSWatch",
-            "url": "https://resolver2.dns.watch/dns-query",
-            "ips": [
-                "84.200.69.80",
-                "84.200.70.40"
-            ]
-        },
-        {
-            "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-quer",
-            "ips": [
-                "9.9.9.9",
-                "149.112.112.112"
-            ]
-        }
+      "name": "AliDNS",
+      "url": "https://dns.alidns.com/dns-query",
+      "ips": [
+        "223.5.5.5",
+        "223.6.6.6"
+      ]
+    },
+    {
+      "name": "DNSPod",
+      "url": "https://dns.pub/dns-query",
+      "ips": [
+        "119.29.29.29",
+        "182.254.116.116"
+      ]
+    },
+    {
+      "name": "360DoH",
+      "url": "https://doh.360.cn/dns-query",
+      "ips": [
+        "101.226.4.6",
+        "123.125.81.6"
+      ]
+    },
+    {
+      "name": "SDNS",
+      "url": "https://doh.sdns.cn/dns-query",
+      "ips": [
+        "52.80.66.66",
+        "1.2.4.8"
+      ]
+    }
     ],
     "flags": [
         "youku",
@@ -1554,8 +1508,7 @@
     "ads": [
         "static-mozai.4gtv.tv",
         "fs-im-kefu.7moor-fs1.com",
-     "43.248.128.138",
-       "mimg.0c1q0l.cn",
+        "mimg.0c1q0l.cn",
         "www.googletagmanager.com",
         "www.google-analytics.com",
         "mc.usihnbcq.cn",
@@ -1611,6 +1564,125 @@
         "vivovip.mmszxc.top",
         "qiu.xixiqiu.com",
         "cdnjs.hnfenxun.com",
-        "cms.qdwght.com"
+        "cms.qdwght.com",
+    "googleads.g.doubleclick.net",
+    "pubads.g.doubleclick.net",
+    "securepubads.g.doubleclick.net",
+    "doubleclick.net",
+    "googlesyndication.com",
+    "googleadservices.com",
+    "adservice.google.com",
+    "pagead2.googlesyndication.com",
+    "criteo.com",
+    "criteo.net",
+    "rubiconproject.com",
+    "pubmatic.com",
+    "adnxs.com",
+    "appnexus.com",
+    "amazon-adsystem.com",
+    "aax.amazon-adsystem.com",
+    "adcolony.com",
+    "unityads.unity3d.com",
+    "vungle.com",
+    "chartboost.com",
+    "ironsrc.com",
+    "mintegral.com",
+    "pangle.cn",
+    "inmobi.com",
+    "appsflyer.com",
+    "mobvista.com",
+    "mdotm.com",
+    "openx.net",
+    "scorecardresearch.com",
+    "moatads.com",
+    "zedo.com",
+    "exoclick.com",
+    "popads.net",
+    "propellerads.com",
+    "adsterra.com",
+    "mgid.com",
+    "revcontent.com",
+    "taboola.com",
+    "outbrain.com",
+    "indexexchange.com",
+    "sovrn.com",
+    "freewheel.tv",
+    "spotx.tv",
+    "telaria.com",
+    "33across.com",
+    "beachfront.com",
+    "conversant.net",
+    "smaato.com",
+    "startapp.com",
+    "fyber.com",
+    "applovin.com",
+    "tapjoy.com",
+    "admob.com",
+    "adservice.com",
+    "cpro.baidu.com",
+    "eclick.baidu.com",
+    "pos.baidu.com",
+    "wangmeng.baidu.com",
+    "mobads.baidu.com",
+    "mobads-logs.baidu.com",
+    "tanx.com",
+    "alimama.com",
+    "alimama.cn",
+    "mmstat.com",
+    "gdt.qq.com",
+    "adx.qq.com",
+    "ad.qq.com",
+    "isdsp.qq.com",
+    "mta.qq.com",
+    "beacon.qq.com",
+    "union.jd.com",
+    "ads.union.jd.com",
+    "union.vip.com",
+    "api.union.vip.com",
+    "umeng.com",
+    "umeng.co",
+    "umengcloud.com",
+    "alog.umeng.com",
+    "51.la",
+    "51yes.com",
+    "cnzz.com",
+    "www.cnzz.com",
+    "wrating.com",
+    "statcounter.com",
+    "talkingdata.net",
+    "tdcv3.talkingdata.net",
+    "mtalk.cn",
+    "tracking.miui.com",
+    "mixpanel.com",
+    "amplitude.com",
+    "flurry.com",
+    "adlog.flurry.com",
+    "countly.com",
+    "hotjar.com",
+    "clicky.com",
+    "piwik.org",
+    "matomo.org",
+    "plausible.io",
+    "umtrack.com",
+    "hitt.qq.com",
+    "jpush.cn",
+    "jpush.io",
+    "igexin.com",
+    "getui.com",
+    "api.push.xiaomi.com",
+    "api.ad.xiaomi.com",
+    "e.ad.xiaomi.com",
+    "ssp.ad.xiaomi.com",
+    "api.appsflyer.com",
+    "events.appsflyer.com",
+    "stats.appsflyer.com",
+    "api.vungle.com",
+    "config.inmobi.com",
+    "api.mobads4app.com",
+    "api.domob.cn",
+    "domob.cn",
+    "api.youxiaoad.com",
+    "ssp.youxiaoad.com",
+    "source.youxiaoad.com"
     ]
 }
