@@ -636,47 +636,37 @@
         }
   ],
 "doh": [
-        {
-            "name": "Google",
-            "url": "https://dns.google/dns-query",
-            "ips": [
-                "8.8.4.4",
-                "8.8.8.8"
-            ]
-        },
-        {
-            "name": "Cloudflare",
-            "url": "https://cloudflare-dns.com/dns-query",
-            "ips": [
-                "1.1.1.1",
-                "1.0.0.1",
-                "2606:4700:4700::1111",
-                "2606:4700:4700::1001"
-            ]
-        },
-        {
-            "name": "AdGuard",
-            "url": "https://dns.adguard.com/dns-query",
-            "ips": [
-                "94.140.14.140",
-                "94.140.14.141"
-            ]
-        },
-        {
-            "name": "DNSWatch",
-            "url": "https://resolver2.dns.watch/dns-query",
-            "ips": [
-                "84.200.69.80",
-                "84.200.70.40"
-            ]
-        },
-        {
-            "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-quer",
-            "ips": [
-                "9.9.9.9",
-                "149.112.112.112"
-            ]
+         {
+      "name": "AliDNS",
+      "url": "https://dns.alidns.com/dns-query",
+      "ips": [
+        "223.5.5.5",
+        "223.6.6.6"
+      ]
+    },
+    {
+      "name": "DNSPod",
+      "url": "https://dns.pub/dns-query",
+      "ips": [
+        "119.29.29.29",
+        "182.254.116.116"
+      ]
+    },
+    {
+      "name": "360DoH",
+      "url": "https://doh.360.cn/dns-query",
+      "ips": [
+        "101.226.4.6",
+        "123.125.81.6"
+      ]
+    },
+    {
+      "name": "SDNS",
+      "url": "https://doh.sdns.cn/dns-query",
+      "ips": [
+        "52.80.66.66",
+        "1.2.4.8"
+      ]
         }
     ],
   "flags": [
@@ -953,6 +943,125 @@
         "vivovip.mmszxc.top",
         "qiu.xixiqiu.com",
         "cdnjs.hnfenxun.com",
-        "cms.qdwght.com"
+        "cms.qdwght.com",
+    "googleads.g.doubleclick.net",
+    "pubads.g.doubleclick.net",
+    "securepubads.g.doubleclick.net",
+    "doubleclick.net",
+    "googlesyndication.com",
+    "googleadservices.com",
+    "adservice.google.com",
+    "pagead2.googlesyndication.com",
+    "criteo.com",
+    "criteo.net",
+    "rubiconproject.com",
+    "pubmatic.com",
+    "adnxs.com",
+    "appnexus.com",
+    "amazon-adsystem.com",
+    "aax.amazon-adsystem.com",
+    "adcolony.com",
+    "unityads.unity3d.com",
+    "vungle.com",
+    "chartboost.com",
+    "ironsrc.com",
+    "mintegral.com",
+    "pangle.cn",
+    "inmobi.com",
+    "appsflyer.com",
+    "mobvista.com",
+    "mdotm.com",
+    "openx.net",
+    "scorecardresearch.com",
+    "moatads.com",
+    "zedo.com",
+    "exoclick.com",
+    "popads.net",
+    "propellerads.com",
+    "adsterra.com",
+    "mgid.com",
+    "revcontent.com",
+    "taboola.com",
+    "outbrain.com",
+    "indexexchange.com",
+    "sovrn.com",
+    "freewheel.tv",
+    "spotx.tv",
+    "telaria.com",
+    "33across.com",
+    "beachfront.com",
+    "conversant.net",
+    "smaato.com",
+    "startapp.com",
+    "fyber.com",
+    "applovin.com",
+    "tapjoy.com",
+    "admob.com",
+    "adservice.com",
+    "cpro.baidu.com",
+    "eclick.baidu.com",
+    "pos.baidu.com",
+    "wangmeng.baidu.com",
+    "mobads.baidu.com",
+    "mobads-logs.baidu.com",
+    "tanx.com",
+    "alimama.com",
+    "alimama.cn",
+    "mmstat.com",
+    "gdt.qq.com",
+    "adx.qq.com",
+    "ad.qq.com",
+    "isdsp.qq.com",
+    "mta.qq.com",
+    "beacon.qq.com",
+    "union.jd.com",
+    "ads.union.jd.com",
+    "union.vip.com",
+    "api.union.vip.com",
+    "umeng.com",
+    "umeng.co",
+    "umengcloud.com",
+    "alog.umeng.com",
+    "51.la",
+    "51yes.com",
+    "cnzz.com",
+    "www.cnzz.com",
+    "wrating.com",
+    "statcounter.com",
+    "talkingdata.net",
+    "tdcv3.talkingdata.net",
+    "mtalk.cn",
+    "tracking.miui.com",
+    "mixpanel.com",
+    "amplitude.com",
+    "flurry.com",
+    "adlog.flurry.com",
+    "countly.com",
+    "hotjar.com",
+    "clicky.com",
+    "piwik.org",
+    "matomo.org",
+    "plausible.io",
+    "umtrack.com",
+    "hitt.qq.com",
+    "jpush.cn",
+    "jpush.io",
+    "igexin.com",
+    "getui.com",
+    "api.push.xiaomi.com",
+    "api.ad.xiaomi.com",
+    "e.ad.xiaomi.com",
+    "ssp.ad.xiaomi.com",
+    "api.appsflyer.com",
+    "events.appsflyer.com",
+    "stats.appsflyer.com",
+    "api.vungle.com",
+    "config.inmobi.com",
+    "api.mobads4app.com",
+    "api.domob.cn",
+    "domob.cn",
+    "api.youxiaoad.com",
+    "ssp.youxiaoad.com",
+    "source.youxiaoad.com"
   ]
 }
